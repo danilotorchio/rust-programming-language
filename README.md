@@ -1,0 +1,36 @@
+# Rust Book — Studies
+
+My walkthrough of [_The Rust Programming Language_](https://doc.rust-lang.org/book/) (a.k.a. "the book"). Each numbered directory is a small, self-contained example or exercise from a chapter.
+
+## Layout
+
+| Directory | Chapter | Notes |
+|---|---|---|
+| [`001_hello_world`](./001_hello_world) | 1.2 — Hello, World! | Single `main.rs` compiled directly with `rustc`. |
+| [`002_hello_cargo`](./002_hello_cargo) | 1.3 — Hello, Cargo! | Same program, managed with Cargo (edition 2024). |
+
+## Running an example
+
+For raw `rustc` examples:
+
+```sh
+cd 001_hello_world
+rustc main.rs && ./main
+```
+
+For Cargo projects:
+
+```sh
+cd 002_hello_cargo
+cargo run
+```
+
+## Toolchain
+
+Install via [rustup](https://rustup.rs/):
+
+```sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+This repo tracks the stable toolchain.
