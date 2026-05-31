@@ -10,6 +10,8 @@ My walkthrough of [_The Rust Programming Language_](https://doc.rust-lang.org/bo
 | [`002_hello_cargo`](./002_hello_cargo) | 1.3 — Hello, Cargo! | Same program, managed with Cargo (edition 2024). |
 | [`003_guessing_name`](./003_guessing_name) | 2 — Programming a Guessing Game | Interactive number-guessing loop using the `rand` crate. |
 | [`004_variables_shadowing`](./004_variables_shadowing) | 3.1 — Variables and Mutability | Variable shadowing across scopes and type changes. |
+| [`005_functions`](./005_functions) | 3.3 — Functions | Parameters, return values, and blocks as expressions. |
+| [`006_control_flow`](./006_control_flow) | 3.5 — Control Flow | `if` expressions, `loop`/`while`/`for`, and labeled breaks. |
 
 ## Running an example
 
