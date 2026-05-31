@@ -8,6 +8,7 @@ My walkthrough of [_The Rust Programming Language_](https://doc.rust-lang.org/bo
 |---|---|---|
 | [`001_hello_world`](./001_hello_world) | 1.2 — Hello, World! | Single `main.rs` compiled directly with `rustc`. |
 | [`002_hello_cargo`](./002_hello_cargo) | 1.3 — Hello, Cargo! | Same program, managed with Cargo (edition 2024). |
+| [`003_guessing_name`](./003_guessing_name) | 2 — Programming a Guessing Game | Interactive number-guessing loop using the `rand` crate. |
 
 ## Running an example
 
