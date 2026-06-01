@@ -12,6 +12,7 @@ My walkthrough of [_The Rust Programming Language_](https://doc.rust-lang.org/bo
 | [`004_variables_shadowing`](./004_variables_shadowing) | 3.1 — Variables and Mutability | Variable shadowing across scopes and type changes. |
 | [`005_functions`](./005_functions) | 3.3 — Functions | Parameters, return values, and blocks as expressions. |
 | [`006_control_flow`](./006_control_flow) | 3.5 — Control Flow | `if` expressions, `loop`/`while`/`for`, and labeled breaks. |
+| [`007_ownership`](./007_ownership) | 4 — Understanding Ownership | Move vs. copy, returning ownership, shared and mutable references. |
 
 ## Running an example
 
